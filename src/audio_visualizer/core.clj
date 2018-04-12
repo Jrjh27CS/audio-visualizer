@@ -18,14 +18,12 @@
         y (q/random (q/height))]
     (q/ellipse x y diam diam)))
 
-(q/defsketch example
-  :title "First try Friday"
-  :settings #(q/smooth 2)
-  :setup setup
-  :draw draw
-  :size [323 200])
-
 (defn -main
   "I don't do a whole lot ... yet."
   [& args]
-  (println "Hello, World!"))
+  (q/defsketch example
+    :title "First try Friday"
+    :settings #(q/smooth 2)
+    :setup setup
+    :draw draw
+    :size [323 200]))
