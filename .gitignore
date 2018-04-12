@@ -15,3 +15,16 @@ autodoc/**
 /.classpath
 /.project
 /.settings
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+.gitignore
+.git/**
+
+syntax: regexp
+^.nrepl-port
+^.lein-.*
+^target/
+^classes/
+^checkouts/
